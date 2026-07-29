@@ -7,6 +7,14 @@
 
 function uniqueArraySum(ar) {
   // TODO: return the sum of unique numbers in the array
+  const uniqueNumbers = new Set(ar);
+  let sum = 0;
+
+  for (const num of uniqueNumbers) {
+    sum += num;
+  }
+
+  return sum;
 }
 
 module.exports = uniqueArraySum;
