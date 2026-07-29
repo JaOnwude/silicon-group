@@ -12,9 +12,9 @@ function birthdayCakeCandles(candles) {
   for (const candle of candles) {
     if (candle === talest) {
       count++;
-      return count;
     }
-  }
+  }  
+  return count;
 }
 
 module.exports = birthdayCakeCandles;
