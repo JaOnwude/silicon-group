@@ -9,6 +9,18 @@
 
 function compareTriplets(a, b) {
   // TODO: return Alice's and Bob's scores as [aliceScore, bobScore]
+ let aliceScore = 0;
+  let bobScore = 0;
+
+  for (let i = 0; i < 3; i++) {
+    if (a[i] > b[i]) {
+      aliceScore++;
+    } else if (a[i] < b[i]) {
+      bobScore++;
+    }
+  }
+
+  return [aliceScore, bobScore];
 }
 
 module.exports = compareTriplets;

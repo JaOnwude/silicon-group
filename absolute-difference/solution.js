@@ -9,6 +9,7 @@
 
 function absoluteDifference(a, b) {
   // TODO: return the absolute difference between a and b
+  return Math.abs(a - b)
 }
 
 module.exports = absoluteDifference;

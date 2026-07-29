@@ -7,6 +7,7 @@
 
 function simpleArraySum(ar) {
   // TODO: return the sum of the array elements
+  ar.reduce((acc, total) => (acc + total, 0))
 }
 
 module.exports = simpleArraySum;
