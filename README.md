@@ -41,7 +41,7 @@ Run these commands from inside the folder for the challenge you are working on.
 
 ## Time limit
 
-You have **75–90 minutes** to complete the required tests.
+You have **50 minutes** to complete the required tests.
 
 ## Recommended order
 
