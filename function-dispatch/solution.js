@@ -10,6 +10,28 @@
 
 function calculate(operation, a, b) {
   // TODO: use an object literal to map operations to functions
+  switch (operation) {
+    case "add":
+      return a + b;
+
+    case "subtract":
+      return a - b;
+
+    case "multiply":
+      return a * b;
+
+    case "divide":
+      return a / b;
+
+    case "power":
+      return a ** b;
+
+    case "modulo":
+      return a % b;
+
+    default:
+      return "Invalid operation";
+  }
 }
 
 module.exports = calculate;
